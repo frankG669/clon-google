@@ -13,6 +13,9 @@ body{
 .img-menu{
     display: none;
 }
+.vista-movil{
+    display: none;
+}
 .enlaces{
     display: flex;
     justify-content: center;
@@ -129,4 +132,60 @@ footer{
 }
 .footer-link:hover{
     border-bottom: solid 1px #000000;
+}
+
+/* vista móvil */
+@media (max-width: 768px) {
+    .menu{
+        display: flex;
+        align-items: center;
+    }
+    .img-menu{
+        display: block;
+        width: 30px;
+        margin-right: 10px;
+    }
+    .vista-movil{
+        display: block;
+    }
+    .vista-ordenador{
+        display: none;
+    }
+    /* input de busqueda */
+    .busqueda{
+        width: 95%;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 20px;
+    }
+    .cuadro-busqueda{
+        position: absolute;
+        top: 0;
+        width: 90%;
+    }
+    .accesibilidad{
+        margin: 5px;
+    }
+    .botones{
+        display: none;
+    }
+    /* footerc */
+    .opciones{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .contenedor-imagen-google{
+        height: 140px;
+    }
+    .imagen-google{
+        display: flex;
+        justify-content: center;
+    }
+    #logo{
+        width: 50%;
+    }
 }
