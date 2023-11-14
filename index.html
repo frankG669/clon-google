@@ -3,32 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
+    <title>Clon Google</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400&family=Recursive:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="icon" href="./images/icons/icon-google.svg">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="menu">
+    <header>
         <nav class="navbar">
-            <a class="principal" href="#">Gmail</a>
-            <a class="principal" href="#">Imágenes</a>
-            <img src="./images/icons/apps-google.svg" alt="Aplicaciones de google" class="apps-google">
-            <a href="#" class="acceder">Acceder</a>
+            <section class="menu">
+                <img class="img-menu" src="./images/icons/menu.svg" alt="Menú de google">
+            </section>
+            <section class="enlaces">
+                <a class="nav-links gmail" href="#" id="gmail">Gmail</a>
+                <a class="nav-links  imagenes" href="#" id="imagenes">Imágenes</a>
+                <a class="nav links" href="#" > <img class="apps-google" src="./images/icons/apps-google.svg" alt="Apps de google"></a>
+                <a class="nav-links" href="#" id="acceder">Acceder</a>
+            </section>
         </nav>
     </header>
     <main>
         <section class="contenedor">
-            <section class="img-google">
-                <img class="img-google" src="./images/google.png" alt="Google">
+            <section class="contenedor-imagen-google">
+                <section class="imagen-google">
+                    <img id="logo" src="./images/google.png" alt="Logo de Google">
+                </section>
             </section>
             <section class="busqueda">
-                <img src="./images/icons/lupa.svg" alt="Lupa">
-                <input type="text">
-                <img src="./images/icons/busqueda-por-imagen.svg" alt="Busqueda por imagen de google">
-            </section>
-            <section class="secundario">
-                <a href="#">Buscar con Google</a>
-                <a href="#">Voy a tener suerte</a>
+                <section class="cuadro-busqueda">
+                    <img class="iconos-input-busqueda" src="./images/icons/lupa.svg" alt="Lupa">
+                    <input type="text" id="input-search">
+                    <a class="accesibilidad" href="#"><img class="iconos-input-busqueda" src="./images/icons/mic.svg" alt="Busqueda por voz"></a>
+                    <a class="accesibilidad" href="#"><img class="iconos-input-busqueda" src="./images/icons/lens.svg" alt="Google lens"></a>
+                </section>
+                <section class="botones">
+                    <button class="btn-search" id="search"><a href="#">Buscar con Google</a></button>
+                    <button class="btn-search" id="lucky"><a href="#">Voy a tener suerte</a></button>
+                </section>
             </section>
         </section>
     </main>
@@ -36,17 +49,17 @@
         <section class="pais">
             <p>México</p>
         </section>
-        <section class="sobre-google">
-            <section class="part-uno">
-                <a href="#">Sobre Google</a>
-                <a href="#">Publicidad</a>
-                <a href="#">Negocios</a>
-                <a href="#">Cómo funciona la Búsqueda</a>
+        <section class="opciones">
+            <section class="sobre-google">
+                <a class="footer-link" href="#">Sobre Google</a>
+                <a class="footer-link" href="#">Publicidad</a>
+                <a class="footer-link" href="#">Negocios</a>
+                <a class="footer-link" href="#">Cómo funciona la Busqueda</a>
             </section>
-            <section class="part-dos">
-                <a href="#">Privacidad</a>
-                <a href="#">Condiciones</a>
-                <a href="#">Preferencias</a>
+            <section class="privacidad">
+                <a class="footer-link" href="#">Privacidad</a>
+                <a class="footer-link" href="#">Condiciones</a>
+                <a class="footer-link" href="#">Preferencias</a>
             </section>
         </section>
     </footer>
