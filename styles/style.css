@@ -102,6 +102,10 @@ border-bottom: solid 1px #000000;
     text-decoration: none;
     color: #000000;
 }
+/* tendencias */
+.tendencias{
+    display: none;
+}
 /* footer */
 footer{
     position: absolute;
@@ -203,5 +207,34 @@ footer{
     footer{
         position: absolute;
         min-height: 22vh;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    /* tendencias */
+    .tendencias{
+        display: block;
+        position: absolute;
+        top: 35%;
+        width: 95%;
+    }
+    .titulo-tendencias{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .titulo-tendencias h3{
+        font-weight: 100;
+    }
+    .icono-tendencias{
+        width: 25px;
+        margin-right: 10px;
+    }
+    .noti-tendencia{
+        display: flex;
+        align-items: center;
+        border-bottom: solid 1px #c8c2c2;
     }
 }
