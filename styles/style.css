@@ -8,6 +8,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 /* durante la vista de excritorio la imagen del menú no estará visible */
 .img-menu{
@@ -88,15 +89,13 @@ border-bottom: solid 1px #000000;
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 400px;
 }
 .botones button{
     padding: 7px;
     background-color: #f2f2f2;
     border: solid 1px transparent;
     border-radius: 5px;
-}
-.btn-search:hover{
     border: solid 1px #6666666a;
 }
 .botones a{
@@ -108,7 +107,6 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 120px;
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
@@ -176,6 +174,20 @@ footer{
         text-align: center;
         font-size: 15px;
     }
+    .sobre-google{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer{
+        min-height: 22vh;
+    }
+}
+@media (max-width: 922px) {
+    .opciones{
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media (max-width: 480px) {
     .contenedor-imagen-google{
@@ -187,5 +199,9 @@ footer{
     }
     #logo{
         width: 50%;
+    }
+    footer{
+        position: absolute;
+        min-height: 22vh;
     }
 }
