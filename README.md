@@ -25,23 +25,11 @@ El código HTML sigue una estructura básica con secciones para el encabezado, e
 
 La barra de navegación contiene enlaces a diferentes servicios de Google (ningun enlace redireciona a ninguna página externa o hacia alguna parte del documento), así como opciones para acceder y mostrar el menú. Se adapta a diferentes tamaños de pantalla con enlaces específicos para dispositivos móviles y de escritorio.
 
-<!-- Código HTML del contenido principal -->
+- Barra de navegación, vista de escritorio
+![Imagen barra de navegacion](./images/images-documentacion/header-escritorio.png)
 
-<header>
-        <nav class="navbar">
-            <section class="menu">
-                <img class="img-menu" src="./images/icons/menu.svg" alt="Menú de google">
-                <a class="nav-links gmail vista-movil" href="#" id="gmail">Todos</a>
-                <a class="nav-links  imagenes vista-movil" href="#" id="imagenes">Imágenes</a>
-            </section>
-            <section class="enlaces">
-                <a class="nav-links gmail vista-ordenador" href="#" id="gmail">Gmail</a>
-                <a class="nav-links  imagenes vista-ordenador" href="#" id="imagenes">Imágenes</a>
-                <a class="nav links" href="#" > <img class="apps-google" src="./images/icons/apps-google.svg" alt="Apps de google"></a>
-                <a class="nav-links" href="#" id="acceder">Acceder</a>
-            </section>
-        </nav>
-    </header>
+- Barra de navegación, vista móvil
+![Imagen barra de navegacion](./images/images-documentacion/footer-movil.png)
 
 
 
@@ -50,72 +38,11 @@ La barra de navegación contiene enlaces a diferentes servicios de Google (ningu
 
 El contenido principal consta de la sección de la imagen de Google, el cuadro de búsqueda y las tendencias de búsqueda(las tendencias de búsqueda están ocultas en la vista de escritorio). La sección de tendencias incluye noticias populares en un diseño sencillo.
 
-<!-- Código HTML del contenido principal -->
+- Contenido principal vista de escritorio
+![imagen de l contenido principal](./images/images-documentacion/main-escritorio.png)
 
-<main>
-        <section class="contenedor">
-            <section class="contenedor-imagen-google">
-                <section class="imagen-google">
-                    <img id="logo" src="./images/google.png" alt="Logo de Google">
-                </section>
-            </section>
-            <section class="busqueda">
-                <section class="cuadro-busqueda">
-                    <img class="iconos-input-busqueda" src="./images/icons/lupa.svg" alt="Lupa">
-                    <input type="text" id="input-search">
-                    <a class="accesibilidad" href="#"><img class="iconos-input-busqueda" src="./images/icons/mic.svg" alt="Busqueda por voz"></a>
-                    <a class="accesibilidad" href="#"><img class="iconos-input-busqueda" src="./images/icons/lens.svg" alt="Google lens"></a>
-                </section>
-                <section class="botones">
-                    <button class="btn-search" id="search"><a href="#">Buscar con Google</a></button>
-                    <button class="btn-search" id="lucky"><a href="#">Voy a tener suerte</a></button>
-                </section>
-                <section class="tendencias">
-                    <section class="titulo-tendencias">
-                        <section class="titulo">
-                            <h3>Tendencia de búsquedas</h3>
-                        </section>
-                        <section class="menu-tendencias">
-                            <img class="icono-tendencias" src="./images/icons/menu-puntos.svg" alt="">
-                        </section>
-                    </section>
-                    <section class="noti-tendencia">
-                        <div class="icono-tendencia">
-                            <img class="icono-tendencias" src="./images/icons/tendencia.svg" alt="">
-                        </div>
-                        <div class="cont-noticia">
-                            <p>Lanzamiento cohete espacial SpaceX</p>
-                        </div>
-                    </section>
-                    <section class="noti-tendencia">
-                        <div class="icono-tendencia">
-                            <img class="icono-tendencias" src="./images/icons/tendencia.svg" alt="">
-                        </div>
-                        <div class="cont-noticia">
-                            <p>Dónde ver miss universo</p>
-                        </div>
-                    </section>
-                    <section class="noti-tendencia">
-                        <div class="icono-tendencia">
-                            <img class="icono-tendencias" src="./images/icons/tendencia.svg" alt="">
-                        </div>
-                        <div class="cont-noticia">
-                            <p>Alejandro murat hinojosa renuncia</p>
-                        </div>
-                    </section>
-                    <section class="noti-tendencia">
-                        <div class="icono-tendencia">
-                            <img class="icono-tendencias" src="./images/icons/tendencia.svg" alt="">
-                        </div>
-                        <div class="cont-noticia">
-                            <p>Lotería nacional sorteo especial</p>
-                        </div>
-                    </section>
-                    </section>
-                </section>
-            </section>
-        </section>
-    </main>
+- Contenido principal vista de móvil
+![imagen de l contenido principal](./images/images-documentacion/main-movil.png)
 
 
 
@@ -124,28 +51,11 @@ El contenido principal consta de la sección de la imagen de Google, el cuadro d
 
 El pie de página contiene información sobre el país y enlaces adicionales sobre Google, así como opciones de privacidad.
 
-<!-- Código HTML del pie de página -->
+- footer vista de escritorio
+![imagen del footer](./images/images-documentacion/footer-escritorio.png)
 
-
-<footer>
-        <section class="pais">
-            <p>México</p>
-        </section>
-        <section class="opciones">
-            <section class="sobre-google">
-                <a class="footer-link" href="#">Sobre Google</a>
-                <a class="footer-link" href="#">Publicidad</a>
-                <a class="footer-link" href="#">Negocios</a>
-                <a class="footer-link" href="#">Cómo funciona la Busqueda</a>
-            </section>
-            <section class="privacidad">
-                <a class="footer-link" href="#">Privacidad</a>
-                <a class="footer-link" href="#">Condiciones</a>
-                <a class="footer-link" href="#">Preferencias</a>
-            </section>
-        </section>
-    </footer>
-
+- footer vista de escritorio
+![imagen del footer](./images/images-documentacion/footer-escritorio.png)
 
 
 ## Contribuciones
