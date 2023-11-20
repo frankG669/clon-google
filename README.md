@@ -1,4 +1,4 @@
-# Clon de Google
+### Clon de Google
 
 Este proyecto es un clon simple de la página de inicio de Google. La estructura HTML y los elementos visuales se han replicado con fines educativos y de práctica. No poseo derecho sobre logos e imagenes.
 
@@ -28,6 +28,7 @@ La barra de navegación contiene enlaces a diferentes servicios de Google (ningu
 - Barra de navegación, vista de escritorio
 ![Imagen barra de navegacion](./images/images-documentacion/header-escritorio.png)
 
+
 - Barra de navegación, vista móvil
 ![Imagen barra de navegacion](./images/images-documentacion/footer-movil.png)
 
@@ -54,8 +55,8 @@ El pie de página contiene información sobre el país y enlaces adicionales sob
 - footer vista de escritorio
 ![imagen del footer](./images/images-documentacion/footer-escritorio.png)
 
-- footer vista de escritorio
-![imagen del footer](./images/images-documentacion/footer-escritorio.png)
+- footer vista móvil
+![imagen del footer](./images/images-documentacion/footer-movil.png)
 
 
 ## Contribuciones
